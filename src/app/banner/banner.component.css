@@ -6,3 +6,26 @@
     color: white;
 }
 
+.container .title {
+	padding-top: 4rem;
+	letter-spacing: 3px;
+	margin: auto;
+	font-family: "Baloo Bhai 2", cursive;
+	color: white;
+}
+
+.banner {
+	display: flex;
+	align-items: center;
+}
+
+.container.box {
+	background-color: black !important;
+}
+
+.jumbotron .lead {
+	max-width: 60%;
+	margin: 0 auto;
+	text-shadow: 1px 3px 6px black;
+	font-size: 1.5rem;
+}
