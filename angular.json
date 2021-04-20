@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "PortfolioAfolabi"
+  "defaultProject": "PortfolioAfolabi",
+  "cli": {
+    "analytics": "0ca1a564-0688-4b16-b9a7-33bddb1512cc"
+  }
 }
