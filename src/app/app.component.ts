@@ -86,6 +86,8 @@ export class AppComponent {
   }
 
   ngOnInit() {
-    this.intoJS.start();
+    setTimeout(() => {
+      this.intoJS.start();
+    }, 4000);
   }
 }

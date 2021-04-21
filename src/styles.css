@@ -16,3 +16,27 @@ textarea:focus,
 select:focus {
 	outline: none;
 }
+
+.introjs-skipbutton {
+    padding: 4px 0;
+}
+
+.introjs-button {
+    border: none;
+}
+
+@media (max-width: 576px) {
+	.display-1 {
+		font-size: 4rem;
+	}
+
+	.display-2 {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 1521px) {
+	.my-pix {
+		margin-bottom: 1rem;
+	}
+}
