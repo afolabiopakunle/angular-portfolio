@@ -1,0 +1,12 @@
+a:hover {
+    text-decoration: none;
+}
+
+.download-resume:hover {
+    background-color:rgba(0, 139, 139, 0.89)
+}
+
+.footnote {
+    color: #666666;
+    margin-bottom: 2px;
+}
