@@ -10,3 +10,70 @@ a:hover {
     color: #666666;
     margin-bottom: 2px;
 }
+
+
+.box-in {
+	width: 200px;
+	height: 200px;
+	border: 1px dashed rgba(255, 255, 255, 0.4);
+	position: relative;
+}
+
+.spin-container {
+	width: 100%;
+	height: 100%;
+	animation: spin 3s linear infinite;
+	position: relative;
+}
+
+.shape {
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+	transition: border-radius 1s ease-out;
+	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+	animation: morph 4s ease-in-out infinite both alternate;
+	position: absolute;
+	overflow: hidden;
+	z-index: 5;
+}
+
+.bd {
+	width: 142%;
+	height: 142%;
+	position: absolute;
+	left: -21%;
+	top: -21%;
+	background-size: 100%;
+	background-position: center center;
+	display: flex;
+	color: #003;
+	font-size: 5vw;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	text-transform: uppercase;
+	animation: spin 3s linear infinite reverse;
+	opacity: 1;
+	z-index: 2;
+	background: url(assets/images/afolabi.png);
+	background-size: cover;
+	background-repeat: none;
+}
+
+@keyframes morph {
+	0% {
+		border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+	}
+
+	100% {
+		border-radius: 40% 60%;
+	}
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(1turn);
+	}
+}
