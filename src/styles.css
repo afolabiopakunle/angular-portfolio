@@ -7,7 +7,6 @@ html, body {
     font-family: "Muli", sans-serif;
     user-select: none;
     background: black;
-
 }
 
 button:focus,
@@ -27,11 +26,12 @@ select:focus {
 
 @media (max-width: 576px) {
 	.display-1 {
-		font-size: 4rem;
+		font-size: 5rem;
+        display: block;
 	}
 
-	.display-2 {
-		font-size: 3rem;
+	.display-3 {
+		font-size: 4rem;
 	}
 }
 
