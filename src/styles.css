@@ -9,3 +9,10 @@ html, body {
     background: black;
 
 }
+
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+	outline: none;
+}
