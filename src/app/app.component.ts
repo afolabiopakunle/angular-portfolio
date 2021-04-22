@@ -10,6 +10,11 @@ import { Card } from './card/models/card';
 export class AppComponent {
   title = 'PortfolioAfolabi';
   cards: Card[] = [{
+    title: 'Sports Website Project',
+    body: 'Adrenalined filled sports webpage with trendy color selection and user-friendly backend cms functionalities.',
+    href: 'https://www.sportsglobaltv.com/'
+  },
+  {
     title: 'Complete Errands App | JavaScript & Bootstrap',
     body: 'Do you need quick services of regular daily people to help do stuffs for you?',
     href: '#'
@@ -22,12 +27,7 @@ export class AppComponent {
   {
     title: 'Hotel Booking Website',
     body: 'This website is targeted at converting visitors to book an apartment with Martinas.',
-    href: '#',
-  },
-  {
-    title: 'Sports Website Project',
-    body: 'Adrenalined filled sports webpage with trendy color selection and user-friendly backend cms functionalities.',
-    href: '#'
+    href: 'https://martinasapartments.com/',
   },
   {
     title: 'JavaScript Shopping List',
@@ -37,7 +37,7 @@ export class AppComponent {
   {
     title: 'My Designs',
     body: 'Page contains screenshots of previous designs and concepts I delivered using Figma and AdobeXD in some projects',
-    href: '#'
+    href: 'https://dribbble.com/afolabiopakunle'
   }];
 
   intoJS = introJs();
@@ -46,7 +46,7 @@ export class AppComponent {
     this.intoJS.start()
   }
 
-  
+
   constructor() {
     this.intoJS.setOptions({
       steps: [{
