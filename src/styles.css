@@ -24,6 +24,10 @@ select:focus {
     border: none;
 }
 
+.introjs-button:focus {
+    box-shadow: none;
+}
+
 .display-1 {
     display: block;
     margin-top: -20px;
