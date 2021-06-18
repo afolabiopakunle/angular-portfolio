@@ -16,9 +16,12 @@ export class AppComponent {
       href: 'https://opakunleafolabi-angular-harry-porter-search.surge.sh'
     }, 
     {
-      title: 'Angular Events Site',
-      body: 'Keep up to date with recent Angular trends and events around your city. Book, register and get notification.',
-      href: 'https://www.sportsglobaltv.com/'
+      // title: 'Angular Events Site',
+      // body: 'Keep up to date with recent Angular trends and events around your city. Book, register and get notification.',
+      // href: 'https://www.sportsglobaltv.com/'
+      title: 'JavaScript Exams Web App',
+      body: 'Multiple options questions online examination, vanilla JavaScript utilized to deliver seamless question loading and scoring',
+      href: 'https://opakunleafolabi-exams-web-app.surge.sh'
     },
     {
       title: 'Complete Errands App | JavaScript & Bootstrap',
