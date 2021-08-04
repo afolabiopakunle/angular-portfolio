@@ -11,37 +11,24 @@ export class AppComponent {
   title = 'PortfolioAfolabi';
   cards: Card[] = [
     {
+        title: 'Human Resources Management Web App',
+        body: 'Web solution that takes care of payroll, reporting, staff record and human capital management needs.',
+        href: 'https://afolabiopakunle-human-manager.surge.sh'
+      },
+    {
       title: 'Angular Harry Porter Searchable Characters',
       body: 'Angular based searchable Harry Porter series characters list. Populates on key up and backspace',
       href: 'https://opakunleafolabi-angular-harry-porter-search.surge.sh'
-    }, 
+    },
+    // {
+    //   title: 'Complete Errands App | JavaScript & Bootstrap',
+    //   body: 'Do you need quick services of regular daily people to help do stuffs for you?',
+    //   href: '#'
+    // },
     {
-      // title: 'Angular Events Site',
-      // body: 'Keep up to date with recent Angular trends and events around your city. Book, register and get notification.',
-      // href: 'https://www.sportsglobaltv.com/'
       title: 'JavaScript Exams Web App',
       body: 'Multiple options questions online examination, vanilla JavaScript utilized to deliver seamless question loading and scoring',
       href: 'https://opakunleafolabi-exams-web-app.surge.sh'
-    },
-    {
-      title: 'Complete Errands App | JavaScript & Bootstrap',
-      body: 'Do you need quick services of regular daily people to help do stuffs for you?',
-      href: '#'
-    },
-    {
-      title: 'Playstore App Landing Page',
-      body: 'Landing page design has evolved over a short period of time. This design is modern and ageless.',
-      href: '#'
-    },
-    {
-      title: 'Hotel Booking Website',
-      body: 'This website is targeted at converting visitors to book an apartment with Martinas.',
-      href: 'https://martinasapartments.com/',
-    },
-    {
-      title: 'JavaScript Shopping List',
-      body: 'Search enabled shopping list app, constructed with the use of   plain JavaScript with commented jQuery version included.',
-      href: '#'
     },
     {
       title: 'My Designs',
