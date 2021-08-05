@@ -16,6 +16,11 @@ export class AppComponent {
         href: 'https://afolabiopakunle-human-manager.surge.sh'
       },
     {
+      title: 'Employee Management Application',
+      body: 'Single Page Application, that implements all the rules of CRUD for effective management of employees',
+      href: 'https://afolabiopakunle-employee-crud-app.surge.sh'
+    },
+    {
       title: 'Angular Harry Porter Searchable Characters',
       body: 'Angular based searchable Harry Porter series characters list. Populates on key up and backspace',
       href: 'https://opakunleafolabi-angular-harry-porter-search.surge.sh'
@@ -32,7 +37,7 @@ export class AppComponent {
     },
     {
       title: 'My Designs',
-      body: 'Page contains screenshots of previous designs and concepts I delivered using Figma and AdobeXD in some projects',
+      body: 'Page contains screenshots of previous designs and concepts I delivered using Figma and AdobeXD in some projects as a UI/UX designer',
       href: 'https://dribbble.com/afolabiopakunle'
     }];
 
