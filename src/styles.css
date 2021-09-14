@@ -33,6 +33,10 @@ select:focus {
     margin-top: -20px;
 }
 
+.introjs-overlay {
+    cursor: wait;
+}
+
 @media (max-width: 776px) {
 	.display-1 {
 		font-size: 4rem;
