@@ -11,17 +11,22 @@ export class AppComponent {
   title = 'PortfolioAfolabi';
   cards: Card[] = [
     {
-        title: 'Human Resources Management Web App',
-        body: 'Web solution that takes care of payroll, reporting, staff record and human capital management needs.',
-        href: 'https://afolabiopakunle-human-manager.surge.sh'
-      },
+      title: 'Human Resources App',
+      body: 'Web solution that takes care of payroll, reporting, staff record and human capital management needs.',
+      href: 'https://humanmanager.net'
+    },
     {
-      title: 'Employee Management Application',
+      title: 'Heirs Insurance App',
+      body: 'Angular 11 SPA, Simple & affordable insurance protection for everything you cherish. Motor Insurance, Life etc.',
+      href: 'https://simple.heirsinsurance.com/home'
+    },
+    {
+      title: 'Employee Management',
       body: 'Single Page Application, that implements all the rules of CRUD for effective management of employees',
       href: 'https://afolabiopakunle-employee-crud-app.surge.sh'
     },
     {
-      title: 'Angular Harry Porter Searchable Characters',
+      title: 'Searchable Characters',
       body: 'Angular based searchable Harry Porter series characters list. Populates on key up and backspace',
       href: 'https://opakunleafolabi-angular-harry-porter-search.surge.sh'
     },
@@ -31,13 +36,13 @@ export class AppComponent {
     //   href: '#'
     // },
     {
-      title: 'JavaScript Exams Web App',
-      body: 'Multiple options questions online examination, vanilla JavaScript utilized to deliver seamless question loading and scoring',
+      title: 'JavaScript Exams App',
+      body: 'Multiple options questions online examination, JavaScript utilized to deliver seamless question loading and scoring',
       href: 'https://opakunleafolabi-exams-web-app.surge.sh'
     },
     {
       title: 'My Designs',
-      body: 'Page contains screenshots of previous designs and concepts I delivered using Figma and AdobeXD in some projects as a UI/UX designer',
+      body: 'Compilations of previous designs, concepts I delivered while freelancing as a UI/UX designer',
       href: 'https://dribbble.com/afolabiopakunle'
     }];
 
