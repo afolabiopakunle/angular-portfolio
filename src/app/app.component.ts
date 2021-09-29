@@ -30,11 +30,11 @@ export class AppComponent {
       body: 'Angular based searchable Harry Porter series characters list. Populates on key up and backspace',
       href: 'https://opakunleafolabi-angular-harry-porter-search.surge.sh'
     },
-    // {
-    //   title: 'Complete Errands App | JavaScript & Bootstrap',
-    //   body: 'Do you need quick services of regular daily people to help do stuffs for you?',
-    //   href: '#'
-    // },
+    {
+      title: 'Complete Errands App | JavaScript & Bootstrap',
+      body: 'Do you need quick services of regular daily people to help do stuffs for you?',
+      href: 'https://gofer-web-app-afolabi.surge.sh/'
+    },
     {
       title: 'JavaScript Exams App',
       body: 'Multiple options questions online examination, JavaScript utilized to deliver seamless question loading and scoring',
