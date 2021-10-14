@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import * as introJs from 'intro.js';
 import { Card } from './card/models/card';
 
@@ -7,7 +7,7 @@ import { Card } from './card/models/card';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'PortfolioAfolabi';
   cards: Card[] = [
     {
@@ -40,34 +40,34 @@ export class AppComponent {
     //   body: 'Multiple options questions online examination, JavaScript utilized to deliver seamless question loading and scoring',
     //   href: 'https://opakunleafolabi-exams-web-app.surge.sh'
     // },
-    // {
-    //   title: 'My Designs',
-    //   body: 'Compilations of previous designs, concepts I delivered while freelancing as a UI/UX designer',
-    //   href: 'https://dribbble.com/afolabiopakunle'
-    // }
+    {
+      title: 'My Designs',
+      body: 'Compilations of previous designs, concepts I delivered while freelancing as a UI/UX designer',
+      href: 'https://dribbble.com/afolabiopakunle'
+    }
   ];
 
   intoJS = introJs();
 
-  startIntro() {
-    this.intoJS.start()
+  startIntro(): void {
+    this.intoJS.start();
   }
 
 
   constructor() {
     this.intoJS.setOptions({
       steps: [{
-        intro: "<div style='text-align: center'><h4>Hi!</h4><p>Let me show around</p></div>",
+        intro: '<div style=\'text-align: center\'><h4>Hi!</h4><p>Let me show you around</p></div>',
       },
       {
-        element: "#step1",
-        intro: "<div style='text-align: center'>Each card links to a live project!</div>",
+        element: '#step1',
+        intro: '<div style=\'text-align: center\'>Each card links to a live project!</div>',
         position: 'top',
         tooltipClass: 'special'
       },
       {
-        element: "#step2",
-        intro: "The name ;)",
+        element: '#step2',
+        intro: 'The name ;)',
         position: 'bottom'
       },
       {
@@ -77,7 +77,7 @@ export class AppComponent {
       },
       {
         element: '#step4',
-        intro: "Get in touch via email.",
+        intro: 'Get in touch via email.',
         position: 'top'
       },
       {
@@ -85,14 +85,14 @@ export class AppComponent {
         intro: '<p style="text-align: center">Thanks!</p>'
       }
       ],
-      "showBullets": false,
-      "exitOnOverlayClick": false,
-      "showProgress": true,
-      "overlayOpacity": 0.7
-    })
+      showBullets: false,
+      exitOnOverlayClick: false,
+      showProgress: true,
+      overlayOpacity: 0.7
+    });
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
     setTimeout(() => {
       this.intoJS.start();
     }, 4000);
