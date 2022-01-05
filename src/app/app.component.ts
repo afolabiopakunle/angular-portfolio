@@ -26,6 +26,11 @@ export class AppComponent implements OnInit {
       href: 'https://gofer-web-app-afolabi.surge.sh/'
     },
     {
+      title: 'Stripe Charge E-commerce',
+      body: 'Column flow, redistributed rows on mobile, to sustain uneven rows items, giving aesthetically pleasing display',
+      href: 'https://stripe-afolabi.surge.sh/'
+    },
+    {
       title: 'Complete Errands App | JavaScript & Bootstrap',
       body: 'Do you need quick services of regular daily people to help do stuffs for you?',
       href: 'https://gofer-web-app-afolabi.surge.sh/'
