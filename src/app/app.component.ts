@@ -8,6 +8,7 @@ import { Card } from './card/models/card';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+
   cards: Card[] = [
     {
       title: 'Human Resources App',
@@ -97,8 +98,12 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    setTimeout(() => {
-      this.intoJS.start();
-    }, 4000);
+    if(!localStorage.getItem('introJS')) {
+      setTimeout(() => {
+        this.intoJS.start();
+      }, 4000);
+      localStorage.setItem('introJS', 'true');
+    }
+
   }
 }
