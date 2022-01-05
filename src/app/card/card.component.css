@@ -9,11 +9,15 @@
 
 a {
     color: #212529;
+    opacity: 0.6;
+    transition: 0.3s;
 }
 
 a:hover {
 	text-decoration: none;
 	color: #212529;
+  background-color: #f2f2fa;
+  opacity: 1;
 }
 
 .card.shadow:hover {
