@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
     {
       title: 'Niftyrow',
       body: 'The NFT Marketplace for the global unsung. Buy Or Sell Real African Artworks',
-      href: 'https://gofer-web-app-afolabi.surge.sh/'
+      href: 'https://niftyrow.io/'
     },
     {
       title: 'Stripe Charge E-commerce',
