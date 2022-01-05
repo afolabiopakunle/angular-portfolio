@@ -6,7 +6,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-@Output() startIntroE = new EventEmitter() 
+@Output() startIntroE = new EventEmitter();
 
 startIntro() {
   this.startIntroE.emit()

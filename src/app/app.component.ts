@@ -8,7 +8,6 @@ import { Card } from './card/models/card';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'PortfolioAfolabi';
   cards: Card[] = [
     {
       title: 'Human Resources App',
@@ -21,15 +20,20 @@ export class AppComponent implements OnInit {
       href: 'https://simple.heirsinsurance.com/home'
     },
     {
+      title: 'Niftyrow',
+      body: 'The NFT Marketplace for the global unsung. Buy Or Sell Real African Artworks',
+      href: 'https://gofer-web-app-afolabi.surge.sh/'
+    },
+    {
       title: 'Complete Errands App | JavaScript & Bootstrap',
       body: 'Do you need quick services of regular daily people to help do stuffs for you?',
       href: 'https://gofer-web-app-afolabi.surge.sh/'
     },
-    // {
-    //   title: 'Employee Management',
-    //   body: 'Single Page Application, that implements all the rules of CRUD for effective management of employees',
-    //   href: 'https://afolabiopakunle-employee-crud-app.surge.sh'
-    // },
+    {
+      title: 'Sellers Hub',
+      body: 'Create personal store, update details, then visit the dashboard where items can be uploaded with inventories managed.',
+      href: 'http://afolabi-tech-recruitment.surge.sh'
+    },
     // {
     //   title: 'Searchable Characters',
     //   body: 'Angular based searchable Harry Porter series characters list. Populates on key up and backspace',
@@ -42,7 +46,7 @@ export class AppComponent implements OnInit {
     // },
     {
       title: 'My Designs',
-      body: 'Compilations of previous designs, concepts I delivered while freelancing as a UI/UX designer',
+      body: 'Compilations of previous designs, concepts I delivered when I came to the world as a UI/UX designer',
       href: 'https://dribbble.com/afolabiopakunle'
     }
   ];
