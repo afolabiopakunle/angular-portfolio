@@ -11,6 +11,11 @@ export class AppComponent implements OnInit {
 
   cards: Card[] = [
     {
+      title: 'Banking App',
+      body: 'An online user-friendly banking solution with interactive charts, summaries and tiny animations.',
+      href: 'https://banking-app-afolabi.surge.sh/'
+    },
+    {
       title: 'Human Resources App',
       body: 'Web solution that takes care of payroll, reporting, staff record and human capital management needs.',
       href: 'https://humanmanager.net'
