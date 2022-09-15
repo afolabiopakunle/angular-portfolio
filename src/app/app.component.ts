@@ -11,6 +11,16 @@ export class AppComponent implements OnInit {
 
   cards: Card[] = [
     {
+      title: 'Nifty Row',
+      body: 'The NFT Marketplace for the global unsung. Buy Or Sell Real African Artworks',
+      href: 'https://app.niftyrow.io/'
+    },
+    {
+      title: 'Find Photo -Grid',
+      body: 'An Angular 14 online user-friendly banking solution with interactive charts, summaries and tiny animations.',
+      href: 'https://banking-app-afolabi.surge.sh/'
+    },
+    {
       title: 'Banking App',
       body: 'An online user-friendly banking solution with interactive charts, summaries and tiny animations.',
       href: 'https://banking-app-afolabi.surge.sh/'
@@ -24,16 +34,6 @@ export class AppComponent implements OnInit {
       title: 'Heirs Insurance App',
       body: 'Angular 11 SPA, Simple & affordable insurance protection for everything you cherish. Motor Insurance, Life etc.',
       href: 'https://simple.heirsinsurance.com/home'
-    },
-    {
-      title: 'Niftyrow',
-      body: 'The NFT Marketplace for the global unsung. Buy Or Sell Real African Artworks',
-      href: 'https://niftyrow.io/'
-    },
-    {
-      title: 'Stripe Charge E-commerce',
-      body: 'Column flow, redistributed rows on mobile, to sustain uneven rows items, giving aesthetically pleasing display',
-      href: 'https://stripe-afolabi.surge.sh/'
     },
     {
       title: 'Complete Errands App | JavaScript & Bootstrap',
