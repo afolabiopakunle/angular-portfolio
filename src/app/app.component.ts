@@ -17,8 +17,8 @@ export class AppComponent implements OnInit {
     },
     {
       title: 'Find Photo -Grid',
-      body: 'An Angular 14 online user-friendly banking solution with interactive charts, summaries and tiny animations.',
-      href: 'https://banking-app-afolabi.surge.sh/'
+      body: 'A photo search application with infinite scroll. Implemented with Flickr API endpoints.',
+      href: 'https://afolabi-photo-grid.surge.sh/'
     },
     {
       title: 'Banking App',
