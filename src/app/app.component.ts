@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import * as introJs from 'intro.js';
 import { Card } from './card/models/card';
+import {Meta, Title} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -69,7 +70,10 @@ export class AppComponent implements OnInit {
   }
 
 
-  constructor() {
+  constructor(
+    private titleService: Title,
+    private meta: Meta
+  ) {
     this.intoJS.setOptions({
       steps: [{
         intro: '<div style=\'text-align: center\'><h4>Hi!</h4><p>Let me show you around</p></div>',
@@ -105,6 +109,9 @@ export class AppComponent implements OnInit {
       showProgress: true,
       overlayOpacity: 0.7
     });
+
+    this.titleService.setTitle('');
+    this.meta.addTag({name: 'description', content: 'Afolabi Opakunle, a software engineer with vast knowledge of TypeScript, RxJS, Front End OOP, SCSS, JavaScript, Node JS, Git, amongst other modern tools/frameworks'});
   }
 
   ngOnInit(): void {
