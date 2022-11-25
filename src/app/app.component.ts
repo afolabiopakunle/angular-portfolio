@@ -12,9 +12,24 @@ export class AppComponent implements OnInit {
 
   cards: Card[] = [
     {
-      title: 'Nifty Row',
-      body: 'The NFT Marketplace for the global unsung. Buy Or Sell Real African Artworks',
+      title: 'Stanbic Bank UPL',
+      body: 'End to end soft loan application designed for 9-5ers.',
+      href: 'https://ezcash.stanbicibtc.com/EZCash9-5'
+    },
+    {
+      title: 'Heirs Insurance App',
+      body: 'Simple & affordable insurance protection for everything you cherish, by Zenith bank',
+      href: 'https://simple.heirsinsurance.com/home'
+    },  
+    {
+      title: 'Nifty Row NFTs',
+      body: 'The NFT Marketplace for the unsung. Buy Or Sell Real Artworks',
       href: 'https://app.niftyrow.io/'
+    },
+    {
+      title: 'Human Resources App',
+      body: 'Web solution that takes care of payroll, reporting, staff record and human capital management needs.',
+      href: 'https://humanmanager.net'
     },
     {
       title: 'Find Photo -Grid',
@@ -25,16 +40,6 @@ export class AppComponent implements OnInit {
       title: 'Banking App',
       body: 'An online user-friendly banking solution with interactive charts, summaries and tiny animations.',
       href: 'https://banking-app-afolabi.surge.sh/'
-    },
-    {
-      title: 'Human Resources App',
-      body: 'Web solution that takes care of payroll, reporting, staff record and human capital management needs.',
-      href: 'https://humanmanager.net'
-    },
-    {
-      title: 'Heirs Insurance App',
-      body: 'Angular 11 SPA, Simple & affordable insurance protection for everything you cherish. Motor Insurance, Life etc.',
-      href: 'https://simple.heirsinsurance.com/home'
     },
     {
       title: 'Complete Errands App | JavaScript & Bootstrap',
