@@ -37,3 +37,30 @@ a:hover {
 	cursor: pointer;
 }
 
+.circle {
+  background-color: salmon;
+  box-shadow:
+    0 0 6px 3px #fff,  /* inner white */
+    0 0 10px 5px salmon, /* middle magenta */
+    0 0 10px 5px red; /* outer cyan */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  animation: 1s infinite alternate ease-out breathing-color--dark;
+  position: absolute;
+  top: 20px;
+  right: 20px
+}
+
+@keyframes breathing-color--dark {
+  from {
+    background-color: red;
+    box-shadow:
+      0 0 3px 1px #fff,  /* inner white */
+      0 0 5px 2.5px salmon, /* middle magenta */
+      0 0 5px 2px red; /* outer cyan */
+  }
+  to {
+    background-color: salmon;
+  }
+}

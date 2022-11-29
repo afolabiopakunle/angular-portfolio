@@ -14,42 +14,50 @@ export class AppComponent implements OnInit {
     {
       title: 'Stanbic Bank UPL',
       body: 'End to end soft loan application designed for 9-5ers.',
-      href: 'https://ezcash.stanbicibtc.com/EZCash9-5'
+      href: 'https://ezcash.stanbicibtc.com/EZCash9-5',
+      production: true
     },
     {
       title: 'Heirs Insurance App',
       body: 'Simple & affordable insurance protection for everything you cherish, by Zenith bank',
-      href: 'https://simple.heirsinsurance.com/home'
+      href: 'https://simple.heirsinsurance.com/home',
+      production: true,
     },
     {
       title: 'Nifty Row NFTs',
       body: 'The NFT Marketplace for the unsung. Buy Or Sell Real Artworks',
-      href: 'https://app.niftyrow.io/'
+      href: 'https://app.niftyrow.io/',
+      production: true,
     },
     {
       title: 'Human Resources App',
       body: 'Web solution that takes care of payroll, reporting, staff record and human capital management needs.',
-      href: 'https://humanmanager.net'
+      href: 'https://humanmanager.net',
+      production: true,
     },
     {
       title: 'Find Photo -Grid',
       body: 'A photo search application with infinite scroll. Implemented with Flickr API endpoints.',
-      href: 'https://afolabi-photo-grid.surge.sh/'
+      href: 'https://afolabi-photo-grid.surge.sh/',
+      production: false,
     },
     {
       title: 'Banking App',
       body: 'An online user-friendly banking solution with interactive charts, summaries and tiny animations.',
-      href: 'https://banking-app-afolabi.surge.sh/'
+      href: 'https://banking-app-afolabi.surge.sh/',
+      production: false,
     },
     {
       title: 'Complete Errands App | JavaScript & Bootstrap',
       body: 'Do you need quick services of regular daily people to help do stuffs for you?',
-      href: 'https://gofer-web-app-afolabi.surge.sh/'
+      href: 'https://gofer-web-app-afolabi.surge.sh/',
+      production: false,
     },
     {
       title: 'Sellers Hub',
       body: 'Create personal store, update details, then visit the dashboard where items can be uploaded with inventories managed.',
-      href: 'http://afolabi-tech-recruitment.surge.sh'
+      href: 'http://afolabi-tech-recruitment.surge.sh',
+      production: false,
     },
     // {
     //   title: 'Searchable Characters',
@@ -64,7 +72,8 @@ export class AppComponent implements OnInit {
     {
       title: 'My Designs',
       body: 'Compilations of previous designs, concepts I delivered when I came to the world as a UI/UX designer',
-      href: 'https://dribbble.com/afolabiopakunle'
+      href: 'https://dribbble.com/afolabiopakunle',
+      production: false,
     }
   ];
 

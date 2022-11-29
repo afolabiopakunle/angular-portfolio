@@ -1,5 +1,6 @@
 export interface Card {
-    title: string,
-    body: string,
-    href: string,
+    title: string;
+    body: string;
+    href: string;
+    production: boolean;
 }
