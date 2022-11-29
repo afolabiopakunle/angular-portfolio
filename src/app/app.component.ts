@@ -20,7 +20,7 @@ export class AppComponent implements OnInit {
       title: 'Heirs Insurance App',
       body: 'Simple & affordable insurance protection for everything you cherish, by Zenith bank',
       href: 'https://simple.heirsinsurance.com/home'
-    },  
+    },
     {
       title: 'Nifty Row NFTs',
       body: 'The NFT Marketplace for the unsung. Buy Or Sell Real Artworks',
