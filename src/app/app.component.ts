@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   cards: Card[] = [
     {
       title: 'Stanbic Bank UPL',
-      body: 'End to end soft loan application designed for 9-5ers.',
+      body: 'A User friendly End to end personal loan application designed for 9-5ers.',
       href: 'https://ezcash.stanbicibtc.com/EZCash9-5',
       production: true
     },

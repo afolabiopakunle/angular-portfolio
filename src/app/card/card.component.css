@@ -38,19 +38,7 @@ a:hover {
 }
 
 .circle {
-  background-color: salmon;
-  /*box-shadow:*/
-    /*0 0 6px 3px #fff,  !* inner white *!*/
-    /*0 0 10px 5px salmon, !* middle magenta *!*/
-    /*0 0 10px 5px red; !* outer cyan *!*/
-  /*inset 0 0 3px #fff,      !* inner white *!*/
-  /*inset 2px 0 8px #f0f,   !* inner left magenta short *!*/
-  /*inset -2px 0 8px #0ff,  !* inner right cyan short *!*/
-  /*inset 2px 0 10px #f0f,  !* inner left magenta broad *!*/
-  /*inset -2px 0 10px #0ff, !* inner right cyan broad *!*/
-  /*0 0 5px #fff,            !* outer white *!*/
-  /*-1px 0 8px #f0f,        !* outer left magenta *!*/
-  /*1px 0 8px #0ff;         !* outer right cyan *!*/
+  background-color: green;
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -62,27 +50,27 @@ a:hover {
 
 @keyframes breathing-color--dark {
   from {
-    background-color: red;
+    background-color: green;
     box-shadow:
       inset 0 0 3px #fff,      /* inner white */
-      inset 2px 0 8px salmon,   /* inner left magenta short */
-      inset -2px 0 8px red,  /* inner right cyan short */
-      inset 2px 0 10px salmon,  /* inner left magenta broad */
-      inset -2px 0 10px red, /* inner right cyan broad */
+      inset 2px 0 8px green,   /* inner left magenta short */
+      inset -2px 0 8px lemonchiffon,  /* inner right cyan short */
+      inset 2px 0 10px green,  /* inner left magenta broad */
+      inset -2px 0 10px lemonchiffon, /* inner right cyan broad */
       0 0 5px #fff,            /* outer white */
-      -1px 0 8px salmon,        /* outer left magenta */
-      1px 0 8px red;         /* outer right cyan */
+      -1px 0 8px green,        /* outer left magenta */
+      1px 0 8px lemonchiffon;         /* outer right cyan */
   }
   to {
-    background-color: salmon;
+    background-color: green;
     box-shadow:
       inset 0 0 3px #fff,      /* inner white */
-      inset 2px 0 4px salmon,   /* inner left magenta short */
-      inset -2px 0 4px red,  /* inner right cyan short */
-      inset 2px 0 2px salmon,  /* inner left magenta broad */
-      inset -2px 0 5px red, /* inner right cyan broad */
+      inset 2px 0 4px green,   /* inner left magenta short */
+      inset -2px 0 4px lemonchiffon,  /* inner right cyan short */
+      inset 2px 0 2px green,  /* inner left magenta broad */
+      inset -2px 0 5px lemonchiffon, /* inner right cyan broad */
       0 0 2px #fff,            /* outer white */
-      -1px 0 4px salmon,        /* outer left magenta */
-      1px 0 4px red;         /* outer right cyan */
+      -1px 0 4px green,        /* outer left magenta */
+      1px 0 4px lemonchiffon;         /* outer right cyan */
   }
 }
