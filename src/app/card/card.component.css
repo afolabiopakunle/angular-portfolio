@@ -38,39 +38,33 @@ a:hover {
 }
 
 .circle {
-  background-color: green;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  animation: 1s infinite alternate ease-out breathing-color--dark;
+  box-shadow: 0px 0px 1px 1px #0000001a;
   position: absolute;
   top: 20px;
-  right: 20px
+  right: 20px;
 }
 
-@keyframes breathing-color--dark {
-  from {
-    background-color: green;
-    box-shadow:
-      inset 0 0 3px #fff,      /* inner white */
-      inset 2px 0 8px green,   /* inner left magenta short */
-      inset -2px 0 8px lemonchiffon,  /* inner right cyan short */
-      inset 2px 0 10px green,  /* inner left magenta broad */
-      inset -2px 0 10px lemonchiffon, /* inner right cyan broad */
-      0 0 5px #fff,            /* outer white */
-      -1px 0 8px green,        /* outer left magenta */
-      1px 0 8px lemonchiffon;         /* outer right cyan */
+.green{
+  background: #66FF99;
+}
+
+.orange{
+  background: #f17c57fa;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
   }
-  to {
-    background-color: green;
-    box-shadow:
-      inset 0 0 3px #fff,      /* inner white */
-      inset 2px 0 4px green,   /* inner left magenta short */
-      inset -2px 0 4px lemonchiffon,  /* inner right cyan short */
-      inset 2px 0 2px green,  /* inner left magenta broad */
-      inset -2px 0 5px lemonchiffon, /* inner right cyan broad */
-      0 0 2px #fff,            /* outer white */
-      -1px 0 4px green,        /* outer left magenta */
-      1px 0 4px lemonchiffon;         /* outer right cyan */
+  100% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
   }
 }
+

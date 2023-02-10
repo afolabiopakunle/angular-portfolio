@@ -4,6 +4,6 @@
             <h4 class="card-title">{{ card.title }}</h4>
             <p class="card-text">{{ card.body }}</p>
         </div>
-      <div *ngIf="card.production" class="circle"></div>
+      <div class="circle pulse {{card.production ? 'green' : 'orange'}}"></div>
     </a>
 </div>
