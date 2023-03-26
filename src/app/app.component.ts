@@ -36,6 +36,12 @@ export class AppComponent implements OnInit {
       production: true,
     },
     {
+      title: 'Lendsqr Loan Application',
+      body: 'The smartest lenders choose Lendsqr. Build, launch and scale your lending business across multiple...',
+      href: 'https://afolabi-opakunle-lendsqr.surge.sh/',
+      production: false,
+    },
+    {
       title: 'Find Photo -Grid',
       body: 'A photo search application with infinite scroll. Implemented with Flickr API endpoints.',
       href: 'https://afolabi-photo-grid.surge.sh/',
