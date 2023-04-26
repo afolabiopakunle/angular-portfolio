@@ -36,9 +36,9 @@ export class AppComponent implements OnInit {
       production: true,
     },
     {
-      title: 'Lendsqr Loan Application',
+      title: 'Loan Application',
       body: 'The smartest lenders choose Lendsqr. Build, launch and scale your lending business across multiple...',
-      href: 'https://afolabi-opakunle-lendsqr.surge.sh/',
+      href: 'https://afolabiopakunle-loan-app.surge.sh/',
       production: false,
     },
     {
